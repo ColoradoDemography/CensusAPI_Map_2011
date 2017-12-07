@@ -158,9 +158,6 @@ module.exports = function(cMap, redraw, override) {
     if (cMap.params.s === '140') {
         geo = 'tract';
     }
-    if (cMap.params.s === '150') {
-        geo = 'bg';
-    }
     if (cMap.params.s === '160') {
         geo = 'place';
     }

@@ -17,10 +17,6 @@ module.exports = function(cMap) {
         cMap.map.options.minZoom = 9;
         $('#advgeo').text('tracts');
     }
-    if (cMap.params.s === '150') {
-        cMap.map.options.minZoom = 9;
-        $('#advgeo').text('block groups');
-    }
     if (cMap.params.s === '160') {
         cMap.map.options.minZoom = 9;
         $('#advgeo').text('places');

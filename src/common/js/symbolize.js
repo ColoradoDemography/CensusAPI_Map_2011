@@ -36,9 +36,9 @@ module.exports = function(feature, cMap) {
     if (cMap.params.s === '150') {
         cMap.feature.lineweight = 1;
     }
-    if (cMap.params.s === '160') {
-        cMap.feature.lineweight = 1;
-    }
+    // if (cMap.params.s === '160') {
+    //     cMap.feature.lineweight = 1;
+    // }
 
     newlineweight = cMap.feature.lineweight;
     newlineopacity = cMap.feature.lineopacity;

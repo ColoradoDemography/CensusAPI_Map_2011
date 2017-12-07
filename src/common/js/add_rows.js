@@ -26,7 +26,7 @@ module.exports = function(data, cMap) {
                 } else {
                     tableclassadd = "";
                 }
-                if (k !== 'state' && k !== 'county' && k !== 'place' && k !== 'tract' && k !== 'bg') {
+                if (k !== 'state' && k !== 'county' && k !== 'place' && k !== 'tract') {
 
                     if (k === 'geoname') {
                         datatype = "string";
@@ -81,7 +81,7 @@ module.exports = function(data, cMap) {
                         if (k === 'geoname' || k === 'geonum') {
                             rowstr = rowstr + '<td>' + v + '</td>';
                         }
-                        if (k !== 'state' && k !== 'county' && k !== 'place' && k !== 'tract' && k !== 'bg' && k !== 'geoname' && k !== 'geonum') {
+                        if (k !== 'state' && k !== 'county' && k !== 'place' && k !== 'tract' && k !== 'geoname' && k !== 'geonum') {
 
                             if (k.search("moe") !== -1) {
                                 classadd = "moe";
