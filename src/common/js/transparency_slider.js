@@ -28,7 +28,7 @@
             cMap.legend.removeFrom(cMap.map);
             cMap.geojsonLayer.setStyle({
                 //opacity: cMap.feature.lineopacity,
-                fillOpacity: cMap.feature.fillOpacity
+                fillOpacity: 0.5
             });
             cMap.legend.addTo(cMap.map);
             updatequerysearchstring(cMap);
