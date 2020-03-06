@@ -483,54 +483,6 @@ module.exports = {
         },
 
         {
-            "varcode": "nohsdipl",
-            "verbose": "Percent No High School Diploma",
-            "section": "Education",
-            "table": "b15003",
-            "numerator": "Number(fp.b15003002)+Number(fp.b15003003)+Number(fp.b15003004)+Number(fp.b15003005)+Number(fp.b15003006)+Number(fp.b15003007)+Number(fp.b15003008)+Number(fp.b15003009)+Number(fp.b15003010)+Number(fp.b15003011)+Number(fp.b15003012)+Number(fp.b15003013)+Number(fp.b15003014)+Number(fp.b15003015)+Number(fp.b15003016)",
-            "denominator": "Number(fp.b15003001)",
-            "type": "percent",
-            "minval": "0",
-            "mininc": "0.01",
-            "usezeroasnull": "no",
-            "favtable": "Educational Attainment (percent)",
-            "favstyle": "jenks,7,sh6",
-            "bg": "yes"
-        },
-
-        {
-            "varcode": "hsgradsc",
-            "verbose": "Percent High School Degree or Some College",
-            "section": "Education",
-            "table": "b15003",
-            "numerator": "Number(fp.b15003017)+Number(fp.b15003018)+Number(fp.b15003019)+Number(fp.b15003020)+Number(fp.b15003021)",
-            "denominator": "Number(fp.b15003001)",
-            "type": "percent",
-            "minval": "0",
-            "mininc": "0.01",
-            "usezeroasnull": "no",
-            "favtable": "Educational Attainment (percent)",
-            "favstyle": "jenks,7,mh1",
-            "bg": "yes"
-        },
-
-        {
-            "varcode": "bachlhghr",
-            "verbose": "Percent Bachelors Degree or Higher",
-            "section": "Education",
-            "table": "b15003",
-            "numerator": "Number(fp.b15003022)+Number(fp.b15003023)+Number(fp.b15003024)+Number(fp.b15003025)",
-            "denominator": "Number(fp.b15003001)",
-            "type": "percent",
-            "minval": "0",
-            "mininc": "0.01",
-            "usezeroasnull": "no",
-            "favtable": "Educational Attainment (percent)",
-            "favstyle": "jenks,7,mh2",
-            "bg": "yes"
-        },
-
-        {
             "varcode": "medcrent",
             "verbose": "Median Contract Rent",
             "section": "Rent",
@@ -849,39 +801,7 @@ module.exports = {
             "favstyle": "jenks,7,mh5",
             "bg": "yes"
         },
-
-        {
-            "varcode": "insured",
-            "verbose": "Percent Insured",
-            "section": "Insurance",
-            "table": "b27001",
-            "numerator": "Number(fp.b27001004)+Number(fp.b27001007)+Number(fp.b27001010)+Number(fp.b27001013)+Number(fp.b27001016)+Number(fp.b27001019)+Number(fp.b27001022)+Number(fp.b27001025)+Number(fp.b27001028)+Number(fp.b27001032)+Number(fp.b27001035)+Number(fp.b27001038)+Number(fp.b27001041)+Number(fp.b27001044)+Number(fp.b27001047)+Number(fp.b27001050)+Number(fp.b27001053)+Number(fp.b27001056)",
-            "denominator": "Number(fp.b27001001)",
-            "type": "percent",
-            "minval": "0",
-            "mininc": "0.01",
-            "usezeroasnull": "no",
-            "favtable": "Insurance (percent)",
-            "favstyle": "jenks,7,mh7",
-            "bg": "no"
-        },
-
-        {
-            "varcode": "uninsured",
-            "verbose": "Percent No Insurance",
-            "section": "Insurance",
-            "table": "b27001",
-            "numerator": "Number(fp.b27001005)+Number(fp.b27001008)+Number(fp.b27001011)+Number(fp.b27001014)+Number(fp.b27001017)+Number(fp.b27001020)+Number(fp.b27001023)+Number(fp.b27001026)+Number(fp.b27001029)+Number(fp.b27001033)+Number(fp.b27001036)+Number(fp.b27001039)+Number(fp.b27001042)+Number(fp.b27001045)+Number(fp.b27001048)+Number(fp.b27001051)+Number(fp.b27001054)+Number(fp.b27001057)",
-            "denominator": "Number(fp.b27001001)",
-            "type": "percent",
-            "minval": "0",
-            "mininc": "0.01",
-            "usezeroasnull": "no",
-            "favtable": "Insurance (percent)",
-            "favstyle": "jenks,7,mh8",
-            "bg": "no"
-        },
-
+        
         {
             "varcode": "enrolled",
             "verbose": "Percent Enrolled in School",
@@ -992,22 +912,6 @@ module.exports = {
             "favtable": "Poverty (percent)",
             "favstyle": "jenks,7,sh4",
             "bg": "yes"
-        },
-
-        {
-            "varcode": "disabled",
-            "verbose": "Percent Disabled",
-            "section": "Disability",
-            "table": "b18101",
-            "numerator": "Number(fp.b18101004)+Number(fp.b18101007)+Number(fp.b18101010)+Number(fp.b18101013)+Number(fp.b18101016)+Number(fp.b18101019)+Number(fp.b18101023)+Number(fp.b18101026)+Number(fp.b18101029)+Number(fp.b18101032)+Number(fp.b18101035)+Number(fp.b18101038)",
-            "denominator": "Number(fp.b18101001)",
-            "type": "percent",
-            "minval": "0",
-            "mininc": "0.01",
-            "usezeroasnull": "no",
-            "favtable": "Disability (percent)",
-            "favstyle": "jenks,7,sh5",
-            "bg": "no"
         },
 
         {
